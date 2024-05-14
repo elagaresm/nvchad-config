@@ -12,6 +12,8 @@ map("n", "<leader>tr", function()
   require("base46").toggle_transparency()
 end, { desc = "THEME toggle transparency" })
 
+map("x", "<leader>P", '"_dP', { desc = "PASTE without replacing register" })
+
 -- map("n", ";", ":", { desc = "CMD enter command mode" })
 -- map("i", "jk", "<ESC>")
 
