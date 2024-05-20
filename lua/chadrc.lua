@@ -6,11 +6,11 @@ local M = {}
 
 M.ui = {
   theme = "tomorrow_night",
-  theme_toggle = { "onedark", "tomorrow_night" },
+  -- theme_toggle = { "onedark", "tomorrow_night" },
 
-  statusline = {
-    theme = "minimal",
-  },
+  -- statusline = {
+  --   theme = "minimal",
+  -- },
 
   -- hl_override = {
   -- 	Comment = { italic = true },
